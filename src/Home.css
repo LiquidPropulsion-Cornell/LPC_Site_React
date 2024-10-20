@@ -1,0 +1,24 @@
+.homePageBody {
+  background-image: url('https://www-cdn.eumetsat.int/files/styles/16_9_large/s3/2022-03/earth-space.jpg?h=703c00e5&itok=VOSqUQBz');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.homePageContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 19pt;
+  margin-top: 7vh;
+}
+
+
+.textBox {
+  width: 60%;
+  display: block;
+}
