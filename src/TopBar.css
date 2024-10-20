@@ -10,7 +10,6 @@ button {
   font-size: 14pt;
 }
 
-
 .logo {
   display: flex; 
   align-items: center;
@@ -55,7 +54,7 @@ button {
 .socials {
   display: flex;
   align-items: center;
-  margin-left: 38vw;
+  margin-left: 34vw;
 }
 
 .social {
@@ -73,8 +72,6 @@ button {
   background-color: rgba(128, 128, 128, 0.2);
   box-shadow: 0 0 15px 5px rgba(128, 128, 128, 0.5); 
 }
-
-
 
 a img {
   width: 1.2vw;
