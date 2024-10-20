@@ -1,0 +1,79 @@
+.teamContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 10vh;
+}
+
+.team {
+  position: relative;
+  width: 30vw;
+  margin: auto;
+  padding: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team img {
+  margin-top: 7vh;
+  width: 100%;
+  height: auto;
+  border-radius: 1vh;
+  box-shadow: 0 1vh 1.5vh rgba(0, 0, 0, 0.1);
+}
+
+.infoHeader {
+  position: absolute;
+  top: 5vh;
+  left: 3vw;
+  right: 3vw;
+  background: rgb(0, 0, 0);
+  color: white;
+  border-radius: 1vh;
+  padding: .5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 2;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 1vh solid transparent;
+  border-right: 1vh solid transparent;
+  border-top: 1vh solid white;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin-right: 1vw;
+}
+
+.arrow.active {
+  transform: rotate(180deg);
+}
+
+.team-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  border-radius: 1vh;
+}
+
+.team-info.active {
+  max-height: 100%;
+  padding: 2vw;
+}
