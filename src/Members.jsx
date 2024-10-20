@@ -392,19 +392,6 @@ function Members() {
             </div>
 
             <div className='pic'>
-              <img src='LPC_Henry.jpg' />
-              <p>Henry Calderon</p>
-              <div className='picOverlay'>
-                <div className='extraInfo'>
-                  <p>Henry Calderon</p>
-                  <p>Major: Electrical and Computer Engineering</p>
-                  <p>Graduation Year: 2026</p>
-                  <p>Email: <a href="mailto:hcc54@cornell.edu">hcc54@cornell.edu</a></p>
-                </div>
-              </div>
-            </div>
-
-            <div className='pic'>
               <img src='LPC_Ibrahim.jpg' />
               <p>Ibrahim Ahmed</p>
               <div className='picOverlay'>
