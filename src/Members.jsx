@@ -166,19 +166,6 @@ function Members() {
             </div>
 
             <div className='pic'>
-              <img src='LPC_Chris.jpg' />
-              <p>Chris Biloski</p>
-              <div className='picOverlay'>
-                <div className='extraInfo'>
-                  <p>Chris Biloski</p>
-                  <p>Major: Biomedical Engineering</p>
-                  <p>Graduation Year: 2025</p>
-                  <p>Email: <a href="mailto:cjb358@cornell.edu">cjb358@cornell.edu</a></p>
-                </div>
-              </div>
-            </div>
-
-            <div className='pic'>
               <img src='LPC_Jackie.jpg' />
               <p>Jacquelyn Monahan</p>
               <div className='picOverlay'>
@@ -245,7 +232,7 @@ function Members() {
 
             <div className='pic'>
               <img src='LPC_Xia.jpg' />
-              <p>Wasif Atcha</p>
+              <p>Xia Yan Zhao</p>
               <div className='picOverlay'>
                 <div className='extraInfo'>
                   <p>Xiayan Zhao</p>
@@ -302,20 +289,6 @@ function Members() {
                 </div>
               </div>
             </div>
-
-            <div className='pic'>
-              <img src='LPC_Eli.jpg' />
-              <p>Eli Pate</p>
-              <div className='picOverlay'>
-                <div className='extraInfo'>
-                  <p>Eli Pate</p>
-                  <p>Major: Mechanical Engineering</p>
-                  <p>Graduation Year: 2028</p>
-                  <p>Email: <a href="mailto:ep559@cornell.edu">ep559@cornell.edu</a></p>
-                </div>
-              </div>
-            </div>
-
 
             <div className='pic'>
               <img src='LPC_Jonathan.jpg' />
@@ -391,18 +364,6 @@ function Members() {
               </div>
             </div>
 
-            <div className='pic'>
-              <img src='LPC_Ibrahim.jpg' />
-              <p>Ibrahim Ahmed</p>
-              <div className='picOverlay'>
-                <div className='extraInfo'>
-                  <p>Ibrahim Ahmed</p>
-                  <p>Major: Electrical and Computer Engineering</p>
-                  <p>Graduation Year: 2028</p>
-                  <p>Email: <a href="mailto:ia285@cornell.edu">ia285@cornell.edu</a></p>
-                </div>
-              </div>
-            </div>
 
             <div className='pic'>
               <img src='LPC_Irene.jpg' />
