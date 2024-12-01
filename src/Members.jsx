@@ -32,7 +32,6 @@ function Members() {
 
   return (
     <>
-      <TopBar />
       <div className="progress-bar">
         {sections.current.map((_, index) => (
           <div

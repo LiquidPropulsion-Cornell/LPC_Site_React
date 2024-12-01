@@ -26,7 +26,6 @@ function Subteams() {
 
   return (
     <>
-      <TopBar />
       <div className='teamContainer'>
         <div className='team'>
           <img src='propulsion_subteam.png' />

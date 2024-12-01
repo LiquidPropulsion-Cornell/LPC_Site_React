@@ -1,14 +1,10 @@
 import './Home.css';
-import TopBar from './TopBar';
 
 function Home() {
 
   return (
     <>
       <div className='homePageBody'>
-        <div className='topbar'>
-          <TopBar />
-        </div>
         <div className='homePageContent'>
           <div className='textBox'>
             <h3>
