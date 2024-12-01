@@ -5,7 +5,7 @@ import Subteams from './Subteams';
 function App() {
 
   return (
-    <BrowserRouter basename="/LPC_Site_React">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={
           <Navigate replace to={`/home`} />

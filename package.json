@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://liquidpropulsion-cornell.github.io/LPC_Site_React",
+  "homepage": "https://lpcornell.org",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
