@@ -18,14 +18,19 @@ function Members() {
       });
     }, { threshold: 0.1 });
 
-    sections.current.forEach((section) => {
-      if (section) observer.observe(section);
+    const validSections = sections.current.filter(section => section !== null);
+
+    validSections.forEach((section) => {
+      observer.observe(section);
     });
 
     return () => {
-      if (sections.current) {
-        sections.current.forEach((section) => observer.unobserve(section));
-      }
+      validSections.forEach((section) => {
+        if (section) {
+          observer.unobserve(section);
+        }
+      });
+      observer.disconnect();
     };
   }, []);
 

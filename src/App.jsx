@@ -7,7 +7,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className='app'>
+      <div>
         <TopBar />
         <Routes>
           <Route path="/" element={
