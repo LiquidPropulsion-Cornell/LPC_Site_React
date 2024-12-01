@@ -1,5 +1,4 @@
 import './Subteams.css'
-import TopBar from './TopBar';
 import React, { useState } from "react";
 
 function Subteams() {

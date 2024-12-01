@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import TopBar from "./TopBar";
 import './Members.css';
 
 function Members() {
