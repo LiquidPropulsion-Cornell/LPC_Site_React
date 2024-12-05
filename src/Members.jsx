@@ -182,6 +182,19 @@ function Members() {
             </div>
 
             <div className='pic'>
+              <img src='LPC_Arjun.jpeg' />
+              <p>Arjun Azhagappan</p>
+              <div className='picOverlay'>
+                <div className='extraInfo'>
+                  <p>Arjun Arjun Azhagappan</p>
+                  <p>Major: Materials Science</p>
+                  <p>Graduation Year: 2028</p>
+                  <p>Email: <a href="mailto:aaa424@cornell.edu">aaa424@cornell.edu</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div className='pic'>
               <img src='LPC_Kimari.jpg' />
               <p>Kimari Jackson</p>
               <div className='picOverlay'>
@@ -448,7 +461,7 @@ function Members() {
               <div className='picOverlay'>
                 <div className='extraInfo'>
                   <p>Ana Mahuad</p>
-                  <p>Major: Material Science</p>
+                  <p>Major: Materials Science</p>
                   <p>Graduation Year: 2028</p>
                   <p>Email: <a href="mailto:acm363@cornell.edu">acm363@cornell.edu</a></p>
                 </div>
