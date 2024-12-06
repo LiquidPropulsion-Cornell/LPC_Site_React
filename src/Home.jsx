@@ -17,7 +17,7 @@ function Home() {
             <h4>We are striving to be the first collegiate team to launch a turbopump fed liquid rocket</h4>
           </div>
           <div className='textBox'>
-            <h5>Questions? Contact us at <a href="mailto:cornell.liquidpropulsion@gmail.com">cornell.liquidpropulsion@gmail.com</a></h5>
+            <h5>Questions? Contact us at <a href="mailto:team@lpcornell.org">team@lpcornell.org</a></h5>
           </div>
         </div>
       </div>
