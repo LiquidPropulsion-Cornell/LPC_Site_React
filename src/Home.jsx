@@ -19,6 +19,12 @@ function Home() {
           <div className='textBox'>
             <h5>Questions? Contact us at <a href="mailto:team@lpcornell.org">team@lpcornell.org</a></h5>
           </div>
+          <div className='bottomTextBox'>
+            <h5>
+              Liquid Propulsion at Cornell is a registered Independent Student Organization
+              of Cornell University
+            </h5>
+          </div>
         </div>
       </div>
 

@@ -5,6 +5,7 @@
   height: 100vh;
 }
 
+
 .homePageContent {
   display: flex;
   flex-direction: column;
@@ -20,4 +21,10 @@
 .textBox {
   width: 60%;
   display: block;
+}
+
+.bottomTextBox {
+  width: 30%;
+  font-size: 15pt;
+  margin-top: 15%;
 }
