@@ -9,7 +9,7 @@ function Home() {
           <div className='textBox'>
             <h3>
               Cornell's first student team dedicated to designing, building
-              and launching liquid powered rockets. We compete annually in the FAROUT Tournament in California and
+              and launching liquid powered rockets. We compete annually in the FAROUT Tournament in California and intend to
               become a Cornell Engineering Project Team.
             </h3>
           </div>
