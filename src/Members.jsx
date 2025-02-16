@@ -169,19 +169,6 @@ function Members() {
             </div>
 
             <div className='pic'>
-              <img src='LPC_Jackie.jpg' />
-              <p>Jacquelyn Monahan</p>
-              <div className='picOverlay'>
-                <div className='extraInfo'>
-                  <p>Jacquelyn Monahan</p>
-                  <p>Major: Mechanical Engineering</p>
-                  <p>Graduation Year: 2028</p>
-                  <p>Email: <a href="mailto:jm2875@cornell.edu">jm2875@cornell.edu</a></p>
-                </div>
-              </div>
-            </div>
-
-            <div className='pic'>
               <img src='LPC_Arjun.jpeg' />
               <p>Arjun Azhagappan</p>
               <div className='picOverlay'>
@@ -190,19 +177,6 @@ function Members() {
                   <p>Major: Materials Science</p>
                   <p>Graduation Year: 2028</p>
                   <p>Email: <a href="mailto:aaa424@cornell.edu">aaa424@cornell.edu</a></p>
-                </div>
-              </div>
-            </div>
-
-            <div className='pic'>
-              <img src='LPC_Kimari.jpg' />
-              <p>Kimari Jackson</p>
-              <div className='picOverlay'>
-                <div className='extraInfo'>
-                  <p>Kimari Jackson</p>
-                  <p>Major: Mechanical Engineering</p>
-                  <p>Graduation Year: 2025</p>
-                  <p>Email: <a href="mailto:kdj33@cornell.edu">kdj33@cornell.edu</a></p>
                 </div>
               </div>
             </div>
@@ -232,33 +206,6 @@ function Members() {
                 </div>
               </div>
             </div>
-
-            <div className='pic'>
-              <img src='LPC_William.jpg' />
-              <p>William Liaw</p>
-              <div className='picOverlay'>
-                <div className='extraInfo'>
-                  <p>William Liaw</p>
-                  <p>Major: Applied Engineering Physics and Computer Science</p>
-                  <p>Graduation Year: 2027</p>
-                  <p>Email: <a href="mailto:wjl86@cornell.edu">wjl86@cornell.edu</a></p>
-                </div>
-              </div>
-            </div>
-
-            <div className='pic'>
-              <img src='LPC_Xia.jpg' />
-              <p>Xia Yan Zhao</p>
-              <div className='picOverlay'>
-                <div className='extraInfo'>
-                  <p>Xiayan Zhao</p>
-                  <p>Major: Mechanical Engineering</p>
-                  <p>Graduation Year: 2027</p>
-                  <p>Email: <a href="mailto:xz834@cornell.edu">xz834@cornell.edu</a></p>
-                </div>
-              </div>
-            </div>
-
 
           </div>
         </div>
