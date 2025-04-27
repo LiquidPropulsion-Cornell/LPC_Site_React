@@ -3,6 +3,7 @@ import Home from './Home';
 import Members from './Members';
 import Subteams from './Subteams';
 import TopBar from './TopBar';
+import Sponsor from './Sponsor';
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/members" element={<Members />} />
           <Route path="/subteams" element={<Subteams />} />
+          <Route path="/sponsors" element={<Sponsor />} />
           <Route path="*" element={<Navigate to="/home" />} />
         </Routes>
       </div>

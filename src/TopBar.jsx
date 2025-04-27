@@ -21,6 +21,9 @@ function TopBar() {
           <button onClick={() => navigate('/subteams')}>Subteams</button>
         </div>
         <div className='page'>
+          <button onClick={() => navigate('/sponsors')}>Sponsors</button>
+        </div>
+        <div className='page'>
           <button onClick={() => navigate('/apply')}>Apply</button>
         </div>
       </div>
