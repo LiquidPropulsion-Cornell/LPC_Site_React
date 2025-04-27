@@ -1,54 +1,12 @@
-import React, { useState, useEffect, useRef } from 'react';
 import './Members.css';
 
 function Members() {
-  const [currentStage, setCurrentStage] = useState(0);
-  const sections = useRef([]);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const index = sections.current.indexOf(entry.target);
-          setCurrentStage(index);
-          entry.target.classList.add('in-view');
-        } else {
-          entry.target.classList.remove('in-view');
-        }
-      });
-    }, { threshold: 0.1 });
-
-    const validSections = sections.current.filter(section => section !== null);
-
-    validSections.forEach((section) => {
-      observer.observe(section);
-    });
-
-    return () => {
-      validSections.forEach((section) => {
-        if (section) {
-          observer.unobserve(section);
-        }
-      });
-      observer.disconnect();
-    };
-  }, []);
 
   return (
     <>
-      <div className="progress-bar">
-        {sections.current.map((_, index) => (
-          <div
-            key={index}
-            className={`dot ${index === currentStage ? 'active' : ''}`}
-          />
-        ))}
-      </div>
-
       <div className="memberOverview">
         <div
           className="section"
-          ref={(el) => sections.current[0] = el}
         >
           <div className="text-photo-container">
             <div className="textIntro">
@@ -73,7 +31,6 @@ function Members() {
 
         <div
           className="section full-height-section"
-          ref={(el) => sections.current[1] = el}
         >
           <h1 className='teamName'>Team Leads</h1>
           <div className='picGrid'>
@@ -121,7 +78,6 @@ function Members() {
 
         <div
           className="section full-height-section"
-          ref={(el) => sections.current[2] = el}
         >
           <h1 className='teamName'>Propulsion</h1>
           <div className='picGrid'>
@@ -196,7 +152,7 @@ function Members() {
 
           </div>
         </div>
-        <div className="section full-height-section" ref={(el) => sections.current[3] = el}>
+        <div className="section full-height-section">
           <h1 className='teamName'>Structures</h1>
           <div className='picGrid'>
 
@@ -256,7 +212,7 @@ function Members() {
           </div>
 
         </div>
-        <div className="section full-height-section" ref={(el) => sections.current[4] = el}>
+        <div className="section full-height-section">
           <h1 className='teamName'>Electrical</h1>
           <div className='picGrid'>
 
@@ -371,7 +327,7 @@ function Members() {
 
         </div>
 
-        <div className="section full-height-section" ref={(el) => sections.current[5] = el}>
+        <div className="section full-height-section">
           <h1 className='teamName'>Business</h1>
           <div className='picGrid'>
 
