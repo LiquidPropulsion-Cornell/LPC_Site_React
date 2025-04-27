@@ -1,36 +1,44 @@
 .logo img {
-  height: 7vh;
-  margin-left: 5vw;
+  height: min(7vh, 40px);
+  margin-left: min(5vw, 20px);
 }
 
 button {
   border: none;
   background: none;
   cursor: pointer;
-  font-size: 14pt;
+  font-size: max(14pt, 1rem);
+  white-space: nowrap;
 }
 
 .logo {
-  display: flex; 
+  display: flex;
   align-items: center;
   gap: 10px;
+  flex: 0 0 auto;
 }
 
 .bar {
   background-color: black;
   display: flex;
   padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .pages {
   display: flex;
   align-items: center;
-  margin-left: 3vw;
+  flex: 1 1 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .page {
-  position: relative; 
-  margin-right: 10%;
+  position: relative;
 }
 
 .page::after {
@@ -54,25 +62,27 @@ button {
 .socials {
   display: flex;
   align-items: center;
-  margin-left: 25%;
+  gap: 15px;
+  flex: 0 0 auto;
+  margin-right: min(5vw, 100px);
 }
 
 .social {
   position: relative;
-  margin-right: 15%;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px; 
+  padding: 10px;
 }
 
 .social:hover {
   background-color: rgba(128, 128, 128, 0.2);
-  box-shadow: 0 0 15px 5px rgba(128, 128, 128, 0.5); 
+  box-shadow: 0 0 15px 5px rgba(128, 128, 128, 0.5);
 }
 
 a img {
-  width: 1.2vw;
+  width: min(1.2vw, 20px);
+  min-width: 16px;
 }
