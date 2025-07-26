@@ -22,7 +22,7 @@ function Home() {
           <div className='bottomTextBox'>
             <h5>
               Liquid Propulsion at Cornell is a registered Independent Student Organization
-              of Cornell University
+              of Cornell University. Equal Education and Employment
             </h5>
           </div>
         </div>
