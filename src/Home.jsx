@@ -22,7 +22,7 @@ function Home() {
           <div className='bottomTextBox'>
             <h5>
               Liquid Propulsion at Cornell is a registered Independent Student Organization
-              of Cornell University. Equal Education and Employment
+              of Cornell University. <a href="https://hr.cornell.edu/about/workplace-rights/equal-education-and-employment">Equal Education and Employment</a>
             </h5>
           </div>
         </div>
